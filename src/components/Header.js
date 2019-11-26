@@ -6,7 +6,6 @@ import { faBrain } from '@fortawesome/free-solid-svg-icons'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      {/* <span className="icon fa-diamond"></span> */}
       <FontAwesomeIcon icon={faBrain} size="3x" style={{ marginTop: '18px' }} />
     </div>
     <div className="content">
