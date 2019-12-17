@@ -6,25 +6,22 @@ import { faBrain } from '@fortawesome/free-solid-svg-icons'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <FontAwesomeIcon icon={faBrain} size="3x" style={{ marginTop: '18px' }} />
+      <FontAwesomeIcon icon={faBrain} size="3x" style={{ marginTop: '19%' }} />
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Gray Matter</h1>
+        <h1>Gray Matter Technology</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Digitally transform your data and processes to scale your business
         </p>
       </div>
     </div>
     <nav>
       <ul>
-        <li>
+        <li style={{ padding: '0 25px 0 25px' }}>
+          {/* eslint-disable-next-line */}
           <a
-            href="javascript:;"
+            href="javascript:;" // eslint-disable-line
             onClick={() => {
               props.onOpenArticle('intro')
             }}
@@ -32,29 +29,32 @@ const Header = props => (
             Intro
           </a>
         </li>
-        <li>
+        <li style={{ padding: '0 13px 0 16px' }}>
+          {/* eslint-disable-next-line */}
           <a
-            href="javascript:;"
+            href="javascript:;" // eslint-disable-line
             onClick={() => {
               props.onOpenArticle('work')
             }}
           >
-            Work
+            What We Do
           </a>
         </li>
-        <li>
+        <li style={{ padding: '0 25px 0 25px' }}>
+          {/* eslint-disable-next-line */}
           <a
-            href="javascript:;"
+            href="javascript:;" // eslint-disable-line
             onClick={() => {
               props.onOpenArticle('about')
             }}
           >
-            About
+            Examples
           </a>
         </li>
-        <li>
+        <li style={{ padding: '0 25px 0 25px' }}>
+          {/* eslint-disable-next-line */}
           <a
-            href="javascript:;"
+            href="javascript:;" // eslint-disable-line
             onClick={() => {
               props.onOpenArticle('contact')
             }}
