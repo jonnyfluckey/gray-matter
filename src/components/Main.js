@@ -159,7 +159,10 @@ class Main extends React.Component {
             <span style={{ paddingLeft: '28px' }}>801-750-4086</span>
             <br />
             <FontAwesomeIcon icon={faEnvelope} size="1x" />
-            <span style={{ paddingLeft: '20px' }}> info@graymatter.tech</span>
+            <span style={{ paddingLeft: '20px' }}>
+              {' '}
+              jonny@graymatter.technology
+            </span>
           </div>
           <br />
           <form
