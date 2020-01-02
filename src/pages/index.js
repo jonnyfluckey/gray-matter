@@ -99,6 +99,10 @@ class IndexPage extends React.Component {
             property="og:title"
             content="Grow your Business Through Technology | Gray Matter Tech"
           />
+          <meta
+            name="Description"
+            content="Digitally Transform your Data and Processes to Scale your Business"
+          />
         </Helmet>
         <Layout location={this.props.location}>
           <div

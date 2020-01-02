@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Gray Matter Technology',
     author: 'Jonny Fluckey',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description:
+      'Digitally Transform your Data and Processes to Scale your Business',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
