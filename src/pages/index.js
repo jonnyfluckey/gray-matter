@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
           <meta property="og:image" content={Image} />
           <meta
             property="og:title"
-            content="Grow your Business Through Technology | Gray Matter Tech"
+            content="Gray Matter | Grow your Business Through Technology"
           />
           <meta
             name="Description"

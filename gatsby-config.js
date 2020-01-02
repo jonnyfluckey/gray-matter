@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gray Matter Technology',
+    title: 'Gray Matter | Grow your Business Through Technology',
     author: 'Jonny Fluckey',
     description:
       'Digitally Transform your Data and Processes to Scale your Business',
