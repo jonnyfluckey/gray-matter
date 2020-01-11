@@ -37,7 +37,7 @@ class Main extends React.Component {
             className="image main"
             style={{ width: '50%', float: 'left', margin: '0 25px 0 0' }}
           >
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="Jonny Fluckey - an awesome developer" />
           </span>
           <div>
             <p>
@@ -64,7 +64,7 @@ class Main extends React.Component {
         >
           <h2 className="major">What We Do</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic03} alt="a web dashboard displaying data" />
           </span>
           <h3>Data Transformation</h3>
           <p>
@@ -109,7 +109,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Examples</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="web dashboard displaying your data" />
           </span>
           <h3>Dashboards</h3>
           <p>
@@ -118,7 +118,7 @@ class Main extends React.Component {
             best utilize your time and efforts.
           </p>
           <span className="image main">
-            <img src={pic05} alt="" />
+            <img src={pic05} alt="laptop and mobile device displaying data" />
           </span>
           <h3>API & Database Integration</h3>
           <p>
@@ -128,11 +128,11 @@ class Main extends React.Component {
             internet connected device.
           </p>
           <span className="image main">
-            <img src={pic04} alt="" />
+            <img src={pic04} alt="Slack messaging tool" />
           </span>
-          <h3>Slack Integration</h3>
+          <h3>Chatbot Integration</h3>
           <p>
-            Utilize Slack to help automate business tasks, and integrate
+            Utilize chatbots to help automate business tasks, and integrate
             directly into your company data. Why send a daily message asking for
             status updates when you can have a chatbot do the same task for you,
             and enter the data automatically into the format you need?

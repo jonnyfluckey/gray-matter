@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gray Matter | Grow your Business Through Technology',
+    title: 'Business Web Development Done Right | Gray Matter Technology',
     author: 'Jonny Fluckey',
     description:
-      'Digitally Transform your Data and Processes to Scale your Business',
+      'Web Development to digitally transform your data and business processes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -12,7 +12,8 @@ const Header = props => (
       <div className="inner">
         <h1>Gray Matter Technology</h1>
         <p>
-          Digitally transform your data and processes to scale your business
+          Web Development to digitally transform your data and business
+          processes
         </p>
       </div>
     </div>

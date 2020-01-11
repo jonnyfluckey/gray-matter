@@ -92,7 +92,8 @@ class IndexPage extends React.Component {
         <Helmet>
           <meta
             property="og:description"
-            content="Digitally Transform your Data and Processes to Scale your Business"
+            content="Web Development to digitally transform your data and business
+            processes"
           />
           <meta property="og:image" content={Image} />
           <meta
@@ -101,7 +102,8 @@ class IndexPage extends React.Component {
           />
           <meta
             name="Description"
-            content="Digitally Transform your Data and Processes to Scale your Business"
+            content="Web Development to digitally transform your data and business
+            processes"
           />
         </Helmet>
         <Layout location={this.props.location}>
